@@ -119,6 +119,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+            
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='mailto:agimezeluemmanuel@gmail.com'
@@ -131,9 +132,10 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/1wUPYKmX3vTeK1JbIMWHL6XOtn6E6nUvI/view?usp=drivesdk'
+              href='https://drive.google.com/file/d/1yGVCg4imlxt4uwrCyoY3orANglebnHb7/view?usp=drivesdk'
               target='_blank'
               rel='noreferrer'
+              
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
