@@ -1,7 +1,7 @@
 import React from 'react';
 import youtubeClone from '../assets/youtube-clone.png'
 import carWebsite from '../assets/carWebsite.png'
-import cardDesign from '../assets/shirt-hub.png'
+import ecommerce from '../assets/ecommerce.png'
 import myPic from '../assets/my-pic-animation.png'
 import calculator from '../assets/calculator.png'
 import ship from '../assets/sailingBoat.png'
@@ -14,13 +14,36 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6'>{"//"} Check out some of my recent work</p>
         </div>
 
 {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
+            <div
+            style={{ backgroundImage: `url(${ecommerce})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Real-world E-commerce
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://scandiwebreact-ecommercetask.vercel.app/' target="_blank"rel='noreferrer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/Emerald1996/agimezeluemmanuel-scandiwebjuniourreacttask' target="_blank"rel='noreferrer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${youtubeClone})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -51,7 +74,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                E-commerce Car Website
+                 Car Website
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://e-commerce-car-website-project.vercel.app/' target="_blank"rel='noreferrer'>
@@ -68,29 +91,7 @@ const Work = () => {
             </div>
           </div>
             {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${cardDesign})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                Product Design
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://codepen.io/emma-emerald/full/MWOdPjL' target="_blank"rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://codepen.io/emma-emerald/pen/MWOdPjL' target="_blank"rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div
             style={{ backgroundImage: `url(${myPic})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
