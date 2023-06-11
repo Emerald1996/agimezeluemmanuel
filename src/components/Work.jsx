@@ -2,7 +2,7 @@ import React from 'react';
 import youtubeClone from '../assets/youtube-clone.png'
 import carWebsite from '../assets/carWebsite.png'
 import ecommerce from '../assets/ecommerce.png'
-import myPic from '../assets/my-pic-animation.png'
+import linkedin from '../assets/linkedin.png'
 import calculator from '../assets/calculator.png'
 import ship from '../assets/sailingBoat.png'
 
@@ -28,7 +28,7 @@ const Work = () => {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Real-world E-commerce
+                E-commerce  
               </span>
               <div className='pt-8 text-center'>
                 <a href='https://scandiwebreact-ecommercetask.vercel.app/' target="_blank"rel='noreferrer'>
@@ -44,6 +44,31 @@ const Work = () => {
               </div>
             </div>
           </div>
+          <div
+            style={{ backgroundImage: `url(${linkedin})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                LlinkedIn clone
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://linkedin-clone-6ca61.firebaseapp.com' target="_blank"rel='noreferrer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/Emerald1996/linkedin-clone' target="_blank"rel='noreferrer'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${youtubeClone})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -67,6 +92,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${carWebsite})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -90,31 +116,8 @@ const Work = () => {
               </div>
             </div>
           </div>
-            {/* Grid Item */}
+            
           
-          <div
-            style={{ backgroundImage: `url(${myPic})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                My picture Animation
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://codepen.io/emma-emerald/full/vYJeRmj' target="_blank"rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='https://codepen.io/emma-emerald/pen/vYJeRmj' target="_blank"rel='noreferrer'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${calculator})` }}
