@@ -59,7 +59,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Emerald1996/linkedin-clone' target="_blank"rel='noreferrer'>
+                <a href='https://github.com/Emerald1996/natours' target="_blank"rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -134,7 +134,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Emerald1996/basic-calculator' target="_blank"rel='noreferrer'>
+                <a href='https://github.com/Emerald1996/country-data' target="_blank"rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -157,7 +157,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Emerald1996/sailing-boat' target="_blank"rel='noreferrer'>
+                <a href='https://github.com/Emerald1996/moving-car' target="_blank"rel='noreferrer'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
