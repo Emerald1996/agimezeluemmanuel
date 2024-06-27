@@ -15,8 +15,7 @@ const Home = () => {
           I'm a web Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a customer-focused web developer specializing in building (and occasionally designing) exceptional digital ex
-          periences. With a background in customer support, I bring a unique perspective to crafting responsive frontend web
+          I’m a customer-focused web developer specializing in building (and occasionally designing) exceptional digital experiences. With a background in customer support, I bring a unique perspective to crafting responsive frontend web
           applications.
         </p>
         <div>
