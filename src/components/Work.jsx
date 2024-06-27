@@ -23,7 +23,7 @@ const Work = () => {
             {/* Grid Item */}
             <div
             style={{ backgroundImage: `url(${ecommerce})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+            className='object-contain shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
