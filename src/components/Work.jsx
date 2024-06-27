@@ -45,7 +45,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${natours})` }}
+            style={{ backgroundImage: `url(${natours})` , backgroundSize: 'contain' }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -70,7 +70,7 @@ const Work = () => {
 
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${youtubeClone})` }}
+            style={{ backgroundImage: `url(${youtubeClone})`, backgroundSize: 'contain'  }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -94,7 +94,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${carWebsite})` }}
+            style={{ backgroundImage: `url(${carWebsite})`, backgroundSize: 'contain'  }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -120,7 +120,7 @@ const Work = () => {
           
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${countries})` }}
+            style={{ backgroundImage: `url(${countries})`, backgroundSize: 'contain'  }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -143,7 +143,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${ship})` }}
+            style={{ backgroundImage: `url(${ship})`, backgroundSize: 'contain'  }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
