@@ -1,5 +1,5 @@
 import React from 'react';
-import youtubeClone from '../assets/youtube-clone.png'
+import youtubeClone from '../assets/youtube-clone-project.png'
 import carWebsite from '../assets/cars-project.png'
 import ecommerce from '../assets/e-commerce-project.png'
 import natours from '../assets/natours.png'
